@@ -1,0 +1,16 @@
+<div style="margin: 10px 10px 10px;" class="container">
+    <form>
+        <div class="formGroup">
+            <label class="formControl">Topic  </label> <br>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <ckeditor [config]="{placeholder:'Write your content here'}" [editor]="Editor" data="
+            <p>
+            </p>"></ckeditor>
+        </div>
+        <br> <br>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</div>
