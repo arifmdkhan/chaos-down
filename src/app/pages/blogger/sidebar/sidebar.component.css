@@ -1,0 +1,17 @@
+.example-container {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #555;
+}
+.m1{
+    margin-top: 200px;
+}
+.logout{
+    background-color: red;
+    border-radius: 25px;
+}
+.navbody{
+    background:rgb(192, 32, 181);
+    
+}

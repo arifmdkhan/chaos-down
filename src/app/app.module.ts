@@ -20,6 +20,17 @@ import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { PostCardComponent } from './components/post-card/post-card.component';
 import {MatCardModule} from '@angular/material/card';
+import { ImageCarouselComponent } from './components/image-carousel/image-carousel.component';
+import { BlogListComponent } from './components/blog-list/blog-list.component';
+import { BlogDetailComponent } from './components/blog-detail/blog-detail.component';
+import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { PaginationComponent } from './components/pagination/pagination.component';
+import { DashboardComponent } from './pages/blogger/dashboard/dashboard.component';
+import { SidebarComponent } from './pages/blogger/sidebar/sidebar.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatListModule} from '@angular/material/list';
 
 
 @NgModule({
@@ -32,7 +43,16 @@ import {MatCardModule} from '@angular/material/card';
     FooterComponent,
     PostBlogComponent,
     PageNotFoundComponent,
-    PostCardComponent
+    PostCardComponent,
+    ImageCarouselComponent,
+    BlogListComponent,
+    BlogDetailComponent,
+    SidenavComponent,
+    ContactUsComponent,
+    AboutUsComponent,
+    PaginationComponent,
+    DashboardComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +65,9 @@ import {MatCardModule} from '@angular/material/card';
     MatDividerModule,
     MatMenuModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatSidenavModule,
+    MatListModule
 
   ],
   providers: [],

@@ -1,0 +1,35 @@
+<mat-sidenav-container class="sidenavbar">
+    <mat-sidenav class="navbody" opened="true" mode="side">
+        <mat-nav-list>
+            <a class="user" mat-list-item>
+                <mat-icon>account_circle</mat-icon> Hello, Arif
+            </a>
+            <div class="container">
+                <a class="nav" mat-list-item routerLink="/home">
+                    <mat-icon>home</mat-icon> Home
+                </a>
+                <a class="nav" mat-list-item routerLink="/dashboard">
+                    <mat-icon>dashboard_customize</mat-icon> DashBoard
+                </a>
+                <a class="nav" mat-list-item routerLink="/post-blog">
+                    <mat-icon>dashboard_customize</mat-icon> Write
+                </a>
+                <a class="nav" mat-list-item routerLink="/post-blog">
+                    <mat-icon>dashboard_customize</mat-icon> Read
+                </a>
+                <a class="nav" mat-list-item routerLink="#">
+                    <mat-icon>dashboard_customize</mat-icon> My Articles
+                </a>
+                <a mat-list-item class="logout" routerLink="#">
+                    <mat-icon>logout</mat-icon>SignOut
+                </a>
+            </div>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <!-- <div> </div> -->
+        <app-dashboard></app-dashboard>
+    </mat-sidenav-content>
+
+</mat-sidenav-container>
+<div class="m1"></div>
